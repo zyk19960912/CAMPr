@@ -1,0 +1,102 @@
+{
+  "project_info": {
+    "project_number": "921009788363",
+    "firebase_url": "https://campr-e847b.firebaseio.com",
+    "project_id": "campr-e847b",
+    "storage_bucket": "campr-e847b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921009788363:android:d1759ce946e67c34",
+        "android_client_info": {
+          "package_name": "com.ucsd.campr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921009788363-se8mc3gg58c43b47re79uvk7pardumat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkAUo-3jZfsA_gsyocLfulClq8FJ7Qfn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921009788363:android:82556e9a7c0f2e0b",
+        "android_client_info": {
+          "package_name": "com.example.a1.campr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921009788363-d0nrmfro5jsp8ghvh1fg6o5ejkjq17cj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucsd.eng.campr",
+            "certificate_hash": "3b63f9a390da0b1e9b05b294ed0905c22a96adcc"
+          }
+        },
+        {
+          "client_id": "921009788363-rnaf3kegcrfuchh8tn23cmtrpfkjv72k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucsd.eng.campr",
+            "certificate_hash": "22cc40d123348539554a6900c101bda3e87c35fd"
+          }
+        },
+        {
+          "client_id": "921009788363-pbguh867tnqpbdv77jfv2i2u9o4fs9vt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucsd.eng.campr",
+            "certificate_hash": "2f62a322c3827b9ee0ec3a5fed5e29a84d3da302"
+          }
+        },
+        {
+          "client_id": "921009788363-se8mc3gg58c43b47re79uvk7pardumat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkAUo-3jZfsA_gsyocLfulClq8FJ7Qfn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921009788363-se8mc3gg58c43b47re79uvk7pardumat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please edit your preference here"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/species"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_weight="1"
+                    android:text="Species"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_species"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_age"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_color"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Size"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_size"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/adoption_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adoption Fee"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_adoption_fee"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Save"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SwipeCardsFragment"
+    xmlns:card="http://schemas.android.com/apk/res-auto">
+
+    <com.huxq17.swipecardsview.SwipeCardsView
+        android:id="@+id/swipe_cards_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f3f3"
+        card:alphaOffsetStep="40"
+        card:scaleOffsetStep="0.08"
+        card:yOffsetStep="20dp" />
+
+</LinearLayout>

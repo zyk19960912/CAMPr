@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please edit your preference here"
+                android:textSize="24sp"
+                app:fontFamily="@font/andika" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/species"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_weight="1"
+                    android:text="Species"
+                    android:textSize="24sp"
+                    app:fontFamily="@font/andika" />
+
+                <Spinner
+                    android:id="@+id/spinner_species"
+                    style="@style/spinner_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:fontFamily="@font/andika"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="24sp"
+                    app:fontFamily="@font/andika"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    style="@style/spinner_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    app:fontFamily="@font/andika" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textSize="24sp"
+                    app:fontFamily="@font/andika"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_age"
+                    style="@style/spinner_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    app:fontFamily="@font/andika" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp"
+                    app:fontFamily="@font/andika" />
+
+                <Spinner
+                    android:id="@+id/spinner_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    app:fontFamily="@font/andika"
+                    style="@style/spinner_style"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Size"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp"
+                    app:fontFamily="@font/andika" />
+
+                <Spinner
+                    android:id="@+id/spinner_size"
+                    style="@style/spinner_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    app:fontFamily="@font/andika" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/adoption_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adoption Fee"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp"
+                    app:fontFamily="@font/andika" />
+
+                <Spinner
+                    android:id="@+id/spinner_adoption_fee"
+                    style="@style/spinner_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    app:fontFamily="@font/andika" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Save"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="#B0E0E6"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

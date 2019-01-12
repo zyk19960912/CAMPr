@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:clickable="true"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/no_image"
+                android:scaleType="centerCrop" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="@string/pet_name"
+                android:inputType="textCapSentences|textPersonName"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/bg_edittext"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/species"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Species"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="50dp"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinner_species"-->
+                    <!--style="@style/spinner_style"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textSize="16sp"-->
+                    <!--app:fontFamily="@font/andika" />-->
+
+                <Spinner
+                    android:id="@+id/spinner_species"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_age"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_color"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Size"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_size"
+                    style="@style/Widget.AppCompat.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:dropDownWidth="150dp"
+                    android:dropDownVerticalOffset="35dp"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingRight="14dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/adoption_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="@string/pet_adoption_fee"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/bg_edittext"/>
+
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="@string/pet_info"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:paddingHorizontal="20dp"
+                android:background="@drawable/bg_edittext"/>
+
+            <Button
+                android:id="@+id/add_pet_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/colorPrimary"
+                android:text="Add Pet" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

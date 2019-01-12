@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-50dp"
+                android:textColor="@color/colorPrimary"
+                android:text="CAMPr"
+                android:textStyle="bold"
+                android:textSize="65dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="300dp"
+                android:paddingLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:paddingLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                style="@style/Widget.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/reset_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="forget your password?"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/register_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No account?  Register Now!"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>

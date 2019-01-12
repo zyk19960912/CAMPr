@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_swipe_cards"
+            android:icon="@drawable/ic_pets"
+            android:title="Swipe Cards"/>
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"/>
+        <item android:id="@+id/nav_preference"
+            android:icon="@drawable/ic_preference"
+            android:title="Preference"/>
+        <item android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorite"/>
+        <item android:id="@+id/nav_switch"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Switch"/>
+        <!--<item android:id="@+id/nav_application"-->
+            <!--android:icon="@drawable/ic_application"-->
+            <!--android:title="Application"/>-->
+        <!--<item android:id="@+id/nav_addnew"-->
+            <!--android:icon="@drawable/ic_addnew"-->
+            <!--android:title="Add new"/>-->
+        <item android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_signout"
+            android:title="Sign out"/>
+    </group>
+
+</menu>

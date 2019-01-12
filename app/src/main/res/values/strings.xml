@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">CAMPr</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="pet_name">Enter pet\'s name</string>
+    <string name="pet_gender">Enter pet\'s gender</string>
+    <string name="pet_age">Enter pet\'s age</string>
+    <string name="pet_adoption_fee">Enter pet\'s adoption fee</string>
+    <string name="pet_info">Enter brief description</string>
+    <string name="listed_pets">Listed Pets</string>
+    <string name="list_new_pet">List new pet</string>
+    <string name="view_pet">Pet\'s profile</string>
+
+    <string-array name="species">
+        <item>Any</item>
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bird</item>
+        <item>Fish</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="species_no_any">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bird</item>
+        <item>Fish</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Any</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="genders_no_any">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>Any</item>
+        <item>Below 3 months</item>
+        <item>3 months to 1 year</item>
+        <item>1 year to 3 years</item>
+        <item>Above 3 years</item>
+    </string-array>
+
+    <string-array name="age_no_any">
+        <item>Below 3 months</item>
+        <item>3 months to 1 year</item>
+        <item>1 year to 3 years</item>
+        <item>Above 3 years</item>
+    </string-array>
+
+    <string-array name="color">
+        <item>Any</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="color_no_any">
+        <item>Black</item>
+        <item>White</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="size">
+        <item>Any</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="size_no_any">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="adoption_fee">
+        <item>Any</item>
+        <item>Below $50</item>
+        <item>$50 to $100</item>
+        <item>Above $100</item>
+    </string-array>
+
+    <string-array name="adoption_fee_no_any">
+        <item>Below $50</item>
+        <item>$50 to $100</item>
+        <item>Above $100</item>
+    </string-array>
+
+    <string-array name="states_no_any">
+        <item>California</item>
+        <item>New York</item>
+        <item>Washington</item>
+        <item>...</item>
+    </string-array>
+
+    <string-array name="cities_no_any">
+        <item>San Diego</item>
+        <item>Los Angeles</item>
+        <item>San Francisco</item>
+        <item>...</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
